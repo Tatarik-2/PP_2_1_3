@@ -8,4 +8,9 @@ public class Cat extends Animal {
     public String toString() {
         return "Im a Cat";
     }
+
+    @Override
+    Timer getTimer() {
+        return null;
+    }
 }
